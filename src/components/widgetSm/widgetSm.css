@@ -1,0 +1,62 @@
+.widgetSm{
+    flex: 1;
+    box-shadow: 7px 10px 14px -6px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 5px 10px 14px -6px rgba(0,0,0,0.64);
+    -moz-box-shadow: 5px 10px 14px -6px rgba(0,0,0,0.70);
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.widgetSmTitle{
+  font-size: 25px;
+
+}
+
+.WdgetSmImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmList{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.widgetSmListItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.widgetSmProduct{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmProductname{
+    font-weight: 600;
+}
+
+.widgetSmProductTitle{
+    font-weight: 300;
+}
+
+.widgetSmbutton{
+    display: flex;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #eeeef7;
+    color: gray;
+    cursor: pointer;
+}
+
+.widgetSmIcon{
+    margin-right: 5px;
+    font-size: 10px;
+}
